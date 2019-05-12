@@ -14,6 +14,6 @@ res.send(Math.floor(Math.random() * 6) + 1);
 
 app.listen(3001, function () {
   
-console.log('Server On, Port 3000!');
+console.log('Server On, Port 3001!');
 
 });
