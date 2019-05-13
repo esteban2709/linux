@@ -6,7 +6,7 @@ var number = (Math.floor(Math.random() * 6) + 1);
 
 app.get('/', function (req, res) {
   
-res.send(number);
+res.send('n'+number);
 
 });
 
