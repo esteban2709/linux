@@ -6,7 +6,7 @@ var app = express();
 
 app.get('/', function (req, res) {
   
-res.send('Math.floor(Math.random() * 6) + 1');
+res.send('my number' + (Math.floor(Math.random() * 6) + 1));
 
 });
 
